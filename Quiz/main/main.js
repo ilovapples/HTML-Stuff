@@ -9,14 +9,3 @@ function printName() {
         document.getElementById("emptyLine").innerHTML = null;
     }
 }
-function saveData() {
-    var textToSave = "Hello"
-    var hiddenElement = document.createElement('a');
-  
-    hiddenElement.href = 'data:attachment/text,' + encodeURI(textToSave);
-    hiddenElement.target = '_blank';
-    hiddenElement.download = 'myFile.txt';
-    hiddenElement.click();
-  }
-  
-  document.getElementById('test').addEventListener('click', download_txt);
