@@ -1,0 +1,19 @@
+html {
+    font-family: arial;
+}
+h1.title {
+    text-align: center;
+    font-size: 50px;
+    border-width: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.quiz {
+    height: 1080px;
+    border: none;
+    background-color: rgb(206, 206, 206);
+    padding-top: .3px;
+    padding-inline: 15px;
+}
