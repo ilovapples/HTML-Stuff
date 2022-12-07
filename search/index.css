@@ -1,0 +1,49 @@
+#search_bar {
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-grow: 1;
+}
+.search_bar {
+    text-align: center;
+    margin-top: 250px;
+    display: flex;
+}
+
+html {
+    background-color: #2d2d2d;
+    font-family: arial;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 25%;
+    height: 25%;
+}
+.search_button {
+    background-color: #4b4b4b;
+}
+#warning {
+    color: #FFFFFF;
+    margin-top: 25px;
+    text-align: center;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.about {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+#version {
+    color: #9b9b9b;
+    font-size: 13.5px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
