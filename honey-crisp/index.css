@@ -1,0 +1,30 @@
+.title {
+    text-align: center; 
+    font-family: monospace
+}
+.description {
+    text-align: center; 
+    font-family: monospace; 
+    font-size: 16px;
+}
+.download_button {
+    background-color: #14B2E4;
+    border: solid #004D66 5px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 65px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.download_button-text {
+    font-family: monospace;
+    font-size: 28px;
+}
+html {
+    background-color: #2d2d2d;
+    color: #FFFFFF;
+}
